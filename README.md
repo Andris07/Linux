@@ -39,9 +39,14 @@ A beginner-friendly introduction to Linux.
 
 Topics include:
 
-* A
-* B
-* C
+Topics include:
+
+- [🐧 What is Linux?](00-Introduction/README.md#-what-is-linux)
+- [🏛️ UNIX & Open Source Philosophy](00-Introduction/README.md#️-unix--open-source-philosophy)
+- [🧠 Linux Kernel & Distributions](00-Introduction/README.md#-linux-kernel--distributions)
+- [🌍 Where Is Linux Used?](00-Introduction/README.md#-where-is-linux-used)
+- [⚖️ Advantages & Disadvantages](00-Introduction/README.md#️-advantages--disadvantages)
+- [🌱 Why Learn Linux?](00-Introduction/README.md#-why-learn-linux)
 
 ---
 
