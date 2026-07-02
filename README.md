@@ -39,8 +39,6 @@ A beginner-friendly introduction to Linux.
 
 Topics include:
 
-Topics include:
-
 - [🐧 What is Linux?](00-Introduction/README.md#-what-is-linux)
 - [🏛️ UNIX & Open Source Philosophy](00-Introduction/README.md#️-unix--open-source-philosophy)
 - [🧠 Linux Kernel & Distributions](00-Introduction/README.md#-linux-kernel--distributions)
@@ -56,9 +54,10 @@ Everything needed to create a reusable multi-boot USB drive.
 
 Topics include:
 
-* A
-* B
-* C
+- [🔽 Download](01-Ventoy/Download.md)
+- [💾 Installation](01-Ventoy/Installation.md)
+- [⚙️ Configuration](01-Ventoy/Configuration/README.md)
+- [💡 Tips](01-Ventoy/Tips.md)
 
 ---
 
