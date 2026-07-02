@@ -1,6 +1,8 @@
+Home / 01 - Ventoy
+
 # 💿 Ventoy
 
-> Everything you need to know about Ventoy — from downloading and installation to configuration and useful tips.
+> *"One USB drive. Multiple operating systems. Endless possibilities."*
 
 ---
 
@@ -8,122 +10,90 @@
 
 Ventoy is one of the most popular tools for creating bootable USB drives.
 
-Unlike traditional USB creation tools, Ventoy only needs to be installed once. After that, you simply copy ISO files onto the USB drive, reboot your computer, and choose which operating system to boot from a convenient menu.
+Unlike traditional USB creation tools, Ventoy only needs to be installed once. After that, you simply copy ISO files to the USB drive, reboot your computer, and choose which operating system to boot from a convenient boot menu.
 
-This makes Ventoy an excellent solution for Linux enthusiasts, developers, IT professionals, and anyone who regularly installs or tests operating systems.
+This approach makes installing, testing, and maintaining multiple operating systems significantly faster and more convenient.
 
----
-
-# 🎯 What You'll Learn
-
-This section covers everything needed to get started with Ventoy, including:
-
-* 🔽 Downloading Ventoy
-* 💾 Installing Ventoy on a USB drive
-* ⚙️ Basic configuration
-* 🎨 Customization options
-* ⚖️ Advantages & disadvantages
-* 💡 Useful tips and recommendations
+Whether you're installing Linux for the first time or managing multiple operating systems, Ventoy is an invaluable tool to have.
 
 ---
 
-# 📂 Contents
+# 🔽 Download
 
-## 🔽 Download
+Learn how to safely download Ventoy from the official website, choose the correct release for your operating system, and prepare a USB drive for installation.
 
-Learn where to safely download Ventoy, how to verify you're using the official release, and which version is best suited for your system.
-
-➡️ `Download.md`
+➡️ **Continue reading:** [Download](Download.md)
 
 ---
 
-## 💾 Installation
+# 💾 Installation
 
-Step-by-step installation guide for both Windows and Linux.
+Follow a step-by-step guide to install Ventoy and create your first bootable USB drive.
 
-Topics include:
+This section also explains partition styles, Secure Boot compatibility, updating Ventoy without losing your ISO files, and other installation-related concepts.
 
-* Installing Ventoy
-* Creating a bootable USB drive
-* Updating Ventoy
-* Keeping your existing ISO files during updates
-
-➡️ `Installation.md`
+➡️ **Continue reading:** [Installation](Installation.md)
 
 ---
 
-## ⚙️ Configuration
+# ⚙️ Configuration
 
-Learn how to customize Ventoy after installation.
+Learn how to customize Ventoy after installation to better fit your workflow.
 
-Examples include:
+Topics include boot themes, Secure Boot configuration, plugins, persistent storage, menu customization, and other recommended settings.
 
-* Secure Boot support
-* Default boot options
-* Themes
-* Menu customization
-* Persistent storage
-* Plugin configuration
-
-➡️ `Configuration.md`
+➡️ **Continue reading:** [Configuration](Configuration/README.md)
 
 ---
 
-## 💡 Tips
+# 💡 Tips
 
-A collection of useful recommendations and best practices.
+A collection of practical recommendations gathered from personal experience and community best practices.
 
-Examples include:
+You'll find advice on organizing ISO files, maintaining your Ventoy drive, avoiding common mistakes, and improving your overall workflow.
 
-* Organizing ISO files
-* Naming conventions
-* Folder structure
-* Updating Ventoy safely
-* Common mistakes to avoid
-
-➡️ `Tips.md`
+➡️ **Continue reading:** [Tips](Tips.md)
 
 ---
 
 # ❓ Why Use Ventoy?
 
-Ventoy provides a modern and flexible alternative to traditional bootable USB creation tools.
+Ventoy provides a modern alternative to traditional bootable USB creation tools.
 
-Instead of recreating your USB drive every time you want to install a different operating system, you simply copy new ISO files to the drive and boot directly from them.
+Instead of formatting your USB drive every time you want to install another operating system, simply copy a new ISO file onto the drive and boot directly from it.
 
-This saves time, reduces unnecessary formatting, and makes maintaining a multi-boot USB drive incredibly simple.
+This saves time, reduces unnecessary writes to the USB drive, and makes maintaining a multi-boot installer incredibly simple.
 
 ### ✅ Advantages
 
 * Multiple ISO files on a single USB drive
-* No need to format the USB for every installation
-* Extremely easy to use
+* No need to recreate the USB drive for every installation
+* Simple and beginner-friendly
 * Supports most Linux distributions
 * Supports Windows installers
 * Secure Boot support
-* Open-source project
+* Free and open source
 * Frequently updated
-* Fast boot process
-* Plugin system for advanced features
+* Extensive plugin system
 
 ### ❌ Disadvantages
 
-* Some specialized operating systems may require additional configuration.
-* Certain Secure Boot setups require manual key enrollment.
-* Advanced functionality relies on plugins.
+* Some specialized operating systems require additional configuration
+* Certain Secure Boot setups require manual key enrollment
+* Advanced functionality relies on plugins
 
 ---
 
 # 🔍 Recommended For
 
-Ventoy is highly recommended for users who:
+Ventoy is especially useful for users who:
 
-* Frequently install Linux
-* Test multiple distributions
-* Maintain different operating system installers
+* Frequently install operating systems
+* Test multiple Linux distributions
+* Maintain Windows and Linux installation media
 * Work in IT or system administration
-* Need a portable multi-boot USB drive
-* Want a simple and reliable installation workflow
+* Need a reusable multi-boot USB drive
+* Want a faster and more convenient installation workflow
 
 ---
 
@@ -131,6 +101,4 @@ Ventoy is highly recommended for users who:
 
 Ventoy has become one of the most trusted tools for creating bootable USB drives thanks to its simplicity, flexibility, and active open-source development.
 
-Whether you're installing your first Linux distribution or maintaining a collection of operating systems for daily work, Ventoy is an excellent tool to have in your toolkit.
-
-The following guides will walk through downloading, installing, configuring, and getting the most out of Ventoy.
+The following guides will walk you through downloading, installing, configuring, and getting the most out of Ventoy.
