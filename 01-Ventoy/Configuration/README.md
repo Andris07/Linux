@@ -1,154 +1,91 @@
+Home / 01 - Ventoy / Configuration
+
 # ⚙️ Configuration
 
-> Learn how to customize and configure Ventoy to better suit your needs.
+> *"A good configuration doesn't just make software look better — it makes it easier to use."*
 
 ---
 
 # 📝 About
 
-Ventoy works perfectly out of the box, but it also offers a wide range of customization options.
+Ventoy works perfectly with its default settings, but one of its biggest strengths is how customizable it is.
 
-Whether you simply want to change the boot menu's appearance or configure advanced features such as Secure Boot, persistence, or plugins, Ventoy provides an easy and flexible way to tailor the boot experience to your workflow.
+Whether you want a cleaner boot menu, support for Secure Boot, persistent Linux installations, or a completely custom theme, Ventoy provides a flexible plugin system that makes all of this possible.
 
-This section covers the most useful configuration options, from beginner-friendly settings to more advanced customization.
-
----
-
-# 🎯 What You'll Learn
-
-This section includes guides for:
-
-- 🎨 Themes
-- 🔐 Secure Boot
-- 🔌 Plugins
-- 💾 Persistence
-- 📋 Boot Menu customization
-- ⚙️ Boot Options
+This section covers the most useful configuration options, from basic customization to more advanced features.
 
 ---
 
-# 📂 Contents
+# 🎨 Themes
 
-## 🎨 Themes
+Customize Ventoy's appearance by applying community-made or custom GRUB themes.
 
-Learn how to personalize the appearance of the Ventoy boot menu.
+You'll learn how to install themes, change backgrounds, customize colors, and create a more personalized boot menu.
 
-Topics include:
-
-- Installing themes
-- Theme folder structure
-- Background images
-- Icons
-- Fonts
-- Resolutions
-- Custom themes
-
-➡️ `Themes.md`
+➡️ **Continue reading:** [Themes](Themes.md)
 
 ---
 
-## 🔐 Secure Boot
+# 🔌 Plugins
 
-Understand how Secure Boot works with Ventoy.
+Ventoy uses a JSON-based plugin system to enable advanced functionality.
 
-Topics include:
+This section explains how plugins work, where they're stored, and how to configure them safely.
 
-- What Secure Boot is
-- Why key enrollment is required
-- MOK Manager
-- First boot process
-- Troubleshooting Secure Boot
-
-➡️ `Secure-Boot.md`
+➡️ **Continue reading:** [Plugins](Plugins.md)
 
 ---
 
-## 🔌 Plugins
+# 🔐 Secure Boot
 
-Discover Ventoy's plugin system.
+Learn how Secure Boot works with Ventoy and why key enrollment may be required on your first boot.
 
-Examples:
+This guide also covers common Secure Boot issues and their solutions.
 
-- plugin.json
-- Auto Installation
-- Menu Aliases
-- Menu Classes
-- Theme loading
-- Image lists
-
-➡️ `Plugins.md`
+➡️ **Continue reading:** [Secure Boot](Secure-Boot.md)
 
 ---
 
-## 💾 Persistence
+# 💾 Persistence
 
-Learn how to create persistent Linux installations.
+Persistence allows supported Linux distributions to save files and settings between reboots when running directly from the USB drive.
 
-Topics include:
+You'll learn what persistence is, when it's useful, and how to configure it with Ventoy.
 
-- What persistence is
-- Persistence files
-- Persistent Ubuntu
-- Persistent Fedora
-- Common limitations
-
-➡️ `Persistence.md`
+➡️ **Continue reading:** [Persistence](Persistence.md)
 
 ---
 
-## 📋 Boot Menu
+# 🖥️ Menu Customization
 
-Customize Ventoy's boot menu.
+Organize your boot menu to make large ISO collections easier to navigate.
 
-Examples:
+Topics include folders, file naming, menu ordering, and other quality-of-life improvements.
 
-- Default menu
-- Folder support
-- ISO organization
-- Menu sorting
-- Default boot entry
-
-➡️ `Boot-Menu.md`
+➡️ **Continue reading:** [Menu Customization](Menu-Customization.md)
 
 ---
 
-## ⚙️ Boot Options
+# 🛠️ Advanced Settings
 
-Configure how Ventoy behaves during startup.
+Explore additional configuration options for experienced users.
 
-Topics include:
+Examples include custom boot parameters, plugin combinations, advanced compatibility settings, and troubleshooting uncommon scenarios.
 
-- Boot timeout
-- Default operating system
-- Menu options
-- Startup behavior
-
-➡️ `Boot-Options.md`
+➡️ **Continue reading:** [Advanced Settings](Advanced-Settings.md)
 
 ---
 
-# 🚀 Why Configure Ventoy?
+# 🌱 Why Customize Ventoy?
 
-Although Ventoy is ready to use immediately after installation, a few simple configuration changes can significantly improve your overall experience.
+Ventoy works exceptionally well with its default configuration, so customization is entirely optional.
 
-Custom themes make the boot menu more visually appealing, while features like persistence and plugins unlock much more advanced functionality.
-
-Whether you're a beginner or an experienced Linux user, understanding these options will help you get the most out of Ventoy.
-
----
-
-# 💡 Tip
-
-You don't need to configure everything at once.
-
-Start with the basics, such as themes or boot timeout, and gradually explore more advanced features as you become familiar with Ventoy.
+However, taking a few minutes to configure Ventoy can make it easier to use, improve compatibility with specific operating systems, and create a cleaner, more organized boot experience — especially if you regularly maintain multiple ISO files.
 
 ---
 
 # 👋 Final Notes
 
-Ventoy's greatest strength is its flexibility.
+You don't need to configure every available feature.
 
-Thanks to its modular configuration system, you can keep your setup simple or transform it into a highly customized multi-boot environment.
-
-The following guides explain each feature step by step with practical examples and recommendations.
+Start with the default settings, then gradually explore additional customization options as your needs grow. Ventoy's flexibility allows you to keep things simple or build a highly personalized multi-boot environment.
