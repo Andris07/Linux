@@ -1,82 +1,33 @@
-# 🐧 Linux
+# 🐧 Linux Handbook
 
-> **My personal Linux knowledge base containing notes, installation guides, command references, and useful resources for both myself and anyone beginning their Linux journey.**
+A personal knowledge base documenting my journey of learning Linux, system administration, and related technologies.
 
-![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+This repository is primarily built for my own learning and note-taking, but I hope it can also help beginners understand Linux and avoid some of the common mistakes I made along the way.
+
+The documentation will continue to grow over time as I gain more experience and explore new topics.
 
 ---
 
 # 📝 About
 
-Welcome to my Linux repository!
+This repository aims to:
 
-This project serves as my personal knowledge base, documenting everything I learn while exploring the Linux ecosystem.
-
-The main goal is to keep all important notes, installation guides, troubleshooting steps, commands, and useful resources organized in one place. Although this repository is primarily created for my own learning, I hope it will also help beginners who are starting their Linux journey.
-
-This repository is designed to grow over time as I gain more experience with Linux, self-hosting, servers, virtualization, networking, and open-source technologies.
+* ✍️ Document my Linux learning journey
+* 🧩 Create practical installation and configuration guides
+* 🌱 Explain Linux concepts in beginner-friendly language
+* 📚 Build a long-term personal knowledge base
+* 💡 Share useful tips, recommendations, and best practices
+* 🔍 Help new Linux users understand how Linux works — not just which commands to type
 
 ---
 
 # 🎯 Repository Goals
 
-* ✒️ Document my Linux learning journey
-* 📝 Create detailed installation guides
-* 💻 Collect useful Linux commands
-* 🌱 Explain Linux concepts in beginner-friendly language
-* 📚 Build a long-term personal knowledge base
-* 🔍 Help new Linux users avoid common mistakes
-* 📂 Keep everything organized and easy to navigate
+Instead of being a collection of random notes, this repository follows a logical learning path.
 
----
+Each section builds on the previous one, starting with the fundamentals and gradually introducing more advanced topics.
 
-# 📂 Repository Structure
-
-```text
-Linux/
-│
-├── README.md
-│
-├── 00-Introduction/
-│   └── README.md
-│
-├── 01-Ventoy/
-│   ├── README.md
-│   ├── Download.md
-│   ├── Installation.md
-│   ├── Configuration.md
-│   └── Tips.md
-│
-├── 02-Distributions/
-│   ├── README.md
-│   ├── Fedora/
-│   └── Debian/
-│
-├── 03-Post-Installation/
-│   └── README.md
-│
-├── 04-Bootloaders/
-│   └── README.md
-│
-├── 05-Filesystems/
-│   └── README.md
-│
-├── 06-Desktop-Environments/
-│   └── README.md
-│
-├── 07-Linux-Commands/
-│   └── README.md
-│
-├── 08-Homelab/
-│   └── README.md
-│
-├── 09-Windows-vs-Linux/
-│   └── README.md
-│
-├── LICENSE
-└── .gitignore
-```
+Whether you're completely new to Linux or already have some experience, the goal is to understand **why** things work the way they do, not just **how** to use them.
 
 ---
 
@@ -84,159 +35,171 @@ Linux/
 
 ## 👋 00 - Introduction
 
-General information about Linux, this repository, and useful learning resources.
-
----
-
-## 💿 01 - Ventoy
-
-Everything related to Ventoy.
+A beginner-friendly introduction to Linux.
 
 Topics include:
 
-* What Ventoy is
-* Why it's useful
-* Download
-* Installation
-* Initial configuration
-* Recommended settings
-* Advantages & disadvantages
-* Helpful tips
+* A
+* B
+* C
 
 ---
 
-## 🐧 02 - Linux Distributions
+## 💾 01 - Ventoy
 
-Guides and notes for different Linux distributions.
+Everything needed to create a reusable multi-boot USB drive.
 
-Current plans:
+Topics include:
 
-* Fedora
-* Debian
-
-Future additions may include:
-
-* Arch Linux
-* Ubuntu
-* Linux Mint
+* A
+* B
+* C
 
 ---
 
-## ⚙️ 03 - Post Installation
+## 🆙 02 - Boot Process
 
-Recommended steps after installing Linux.
+Understanding how a computer starts before an operating system loads.
+
+Topics include:
+
+* A
+* B
+* C
+
+---
+
+## 🗃️ 03 - File Systems
+
+Learn how Linux stores and manages data.
+
+Topics include:
+
+* A
+* B
+* C
+
+Including their advantages, disadvantages, and recommended use cases.
+
+---
+
+## 🎭 04 - Linux Distributions
+
+Choosing the right Linux distribution for your needs.
+
+Topics include:
+
+* A
+* B
+* C
+
+Including their advantages, disadvantages, and recommended use cases.
+
+---
+
+## 🪁 05 - Desktop Environments
+
+Learn about the most common Linux desktop environments.
 
 Examples include:
 
-* System updates
-* Drivers
-* GRUB customization
-* Boot timeout configuration
-* Dual-boot fixes
-* Secure Boot
-* Recommended software
-* Quality-of-life improvements
+* A
+* B
+* C
+
+Including their advantages, disadvantages, and recommended use cases.
 
 ---
 
-## 🖥️ 04 - Bootloaders
+## 📦 06 - Installation
 
-Learn about Linux bootloaders and the boot process.
+Installation guides for the selected Linux distributions.
+
+Examples include:
+
+* A
+* B
+* C
+
+---
+
+## ⚙️ 07 - Post Installation
+
+Recommended steps after installing the selected Linux distributions.
+
+Examples include:
+
+* A
+* B
+* C
+
+---
+
+## ⌨️ 08 - Linux Commands
+
+A growing collection of commonly used Linux commands.
+
+Organized by category with explanations and practical examples.
+
+---
+
+## 🧠 09 - Linux Concepts
+
+Understanding the building blocks of Linux.
 
 Topics include:
 
-* GRUB
-* systemd-boot
-* EFI
-* UEFI
-* GPT
-* MBR
+* A
+* B
+* C
 
 ---
 
-## 💾 05 - Filesystems
+## 🌐 10 - Networking
 
-Short explanations of common Linux file systems.
-
-Examples:
-
-* ext4
-* Btrfs
-* XFS
-* NTFS
-* FAT32
-* exFAT
-
----
-
-## 🎨 06 - Desktop Environments
-
-Overview of popular desktop environments together with my own experiences.
-
-Examples:
-
-* GNOME
-* KDE Plasma
-* Cinnamon
-* XFCE
-* Hyprland
-* COSMIC
-
-Customization guides will also be included.
-
----
-
-## 💻 07 - Linux Commands
-
-A growing collection of useful shell commands.
-
-Categories include:
-
-* Basic Commands
-* File Management
-* Networking
-* Package Managers
-* Permissions
-* System Administration
-
----
-
-## 🏠 08 - Homelab
-
-Future documentation covering:
-
-* Docker
-* Containers
-* Virtualization
-* Proxmox
-* NAS
-* Home Servers
-* Self-hosting
-* Kubernetes
-
----
-
-## ⚖️ 09 - Windows vs Linux
-
-A personal comparison between Windows and Linux.
+Basic networking concepts every Linux user should know.
 
 Topics include:
 
-* Advantages
-* Disadvantages
-* Performance
-* Software compatibility
-* Gaming
-* Development
-* Everyday workflow
+* A
+* B
+* C
 
 ---
 
-# 📖 Learning Philosophy
+## 🏡 11 - Homelab
 
-Rather than simply collecting commands, I aim to understand **why** things work.
+Introduction to building and maintaining a simple homelab.
 
-Whenever possible, explanations will accompany commands and configuration examples to make learning easier and more meaningful.
+Topics include:
+
+* A
+* B
+* C
+
+---
+
+## 🆚 12 - Windows vs Linux vs macOS
+
+A practical comparison between the main operating systems.
+
+Topics include:
+
+* A
+* B
+* C
+
+---
+
+## 💡 13 - Tips & Personal Experience
+
+Personal notes collected while learning Linux.
+
+Including:
+
+* Common mistakes
+* Productivity tips
+* Things I wish I had known earlier
 
 ---
 
@@ -244,43 +207,36 @@ Whenever possible, explanations will accompany commands and configuration exampl
 
 Most information in this repository comes from:
 
-* Official documentation
-* Linux manuals
-* Community forums
-* Open-source projects
+* Official Linux documentation
+* Distribution documentation
+* Community wikis
 * Personal experience
-* Articles and tutorials from experienced Linux users
+* Books, articles, and technical videos
 
 Whenever possible, official documentation is preferred over third-party sources.
 
 ---
 
-# 📈 Repository Status
+# 🚧 Status
 
-🚧 **Work in Progress**
+This repository is an ongoing project.
 
-This repository is actively maintained and will continue expanding as I learn more about Linux and related technologies.
-
-Expect frequent updates, improvements, and new guides.
+Some sections are already complete, while others are still being expanded and improved. As I continue learning Linux, new topics, guides, and notes will be added.
 
 ---
 
-# 📜 License
+# ⚖️ License
 
 This project is licensed under the **MIT License**.
 
-You're welcome to use, modify, and learn from the contents of this repository.
-
-If you find something useful, feel free to use it in your own learning journey.
+You're welcome to use, modify, or share the contents of this repository in accordance with the license.
 
 ---
 
-# 👋 Final Words
+# 👋 Thank You
 
-Linux is much more than just an operating system—it's an ecosystem built around learning, customization, and open-source collaboration.
+Thanks for taking the time to visit this repository.
 
-This repository represents my own journey into that ecosystem.
-
-Hopefully, it will become a valuable resource not only for me but also for anyone who shares the same curiosity.
+Whether you're here to learn something new or simply browsing through my notes, I hope you find something useful.
 
 Happy learning! 🐧
